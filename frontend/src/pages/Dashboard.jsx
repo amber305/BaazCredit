@@ -167,11 +167,11 @@ const Dashboard = () => {
                                     <div className="grid grid-cols-2 gap-4">
                                         <div className="bg-background/50 p-3 rounded-lg border border-white/5">
                                             <p className="text-xs text-textMuted">Income</p>
-                                            <p className="font-semibold">${item.inputs.income.toLocaleString()}</p>
+                                            <p className="font-semibold">₹{item.inputs.income.toLocaleString()}</p>
                                         </div>
                                         <div className="bg-background/50 p-3 rounded-lg border border-white/5">
                                             <p className="text-xs text-textMuted">Loan Amount</p>
-                                            <p className="font-semibold">${item.inputs.loan_amount.toLocaleString()}</p>
+                                            <p className="font-semibold">₹{item.inputs.loan_amount.toLocaleString()}</p>
                                         </div>
                                         <div className="bg-background/50 p-3 rounded-lg border border-white/5">
                                             <p className="text-xs text-textMuted">Default Rate Probability</p>

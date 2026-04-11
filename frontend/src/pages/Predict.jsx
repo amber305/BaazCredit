@@ -10,8 +10,8 @@ const Predict = () => {
     
     const [formData, setFormData] = useState({
         age: 30,
-        income: 50000,
-        loan_amount: 15000,
+        income: 500000,
+        loan_amount: 150000,
         employment_length: 5,
         dependents: 0,
         existing_loans: 1,
@@ -85,8 +85,8 @@ const Predict = () => {
                     <h3 className="text-xl font-semibold mb-6 border-b border-white/10 pb-2">Base Features</h3>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                         {renderInput("Age", "age")}
-                        {renderInput("Annual Income ($)", "income")}
-                        {renderInput("Loan Amount ($)", "loan_amount")}
+                        {renderInput("Annual Income (₹)", "income")}
+                        {renderInput("Loan Amount (₹)", "loan_amount")}
                         {renderInput("Employment (Years)", "employment_length")}
                         {renderInput("Dependents", "dependents")}
                         {renderInput("Existing Loans", "existing_loans")}
