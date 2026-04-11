@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+base_env/             # Your Python virtual environment
+__pycache__/
+*.pyc
+
+# Security (Crucial!)
+.env
+backend/.env          # Prevents leaking API keys or DB credentials
+ml_service/.env
+
+# Build & Logs
+dist/
+frontend/dist/
+build/
+*.log
+
+# System Files
+.DS_Store
