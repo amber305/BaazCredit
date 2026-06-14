@@ -1,52 +1,55 @@
-# 🌿 AgriGuard - AI Powered Crop Disease Detection System
+# 🏦 BaazCredit - AI Powered Credit Risk Scoring System
 
 ---
 
 ## 1) Problem Statement
 
-The project aims to solve the problem of **delayed and inaccurate detection of crop diseases and lack of accessible agricultural advisory systems** by using AI-based image classification and a web platform.
+The project aims to solve the problem of **inefficient and slow credit risk evaluation** in financial lending systems by using machine learning-based credit scoring.
 
-Currently, farmers depend on manual inspection or expert consultation, which leads to **late diagnosis, crop damage, and reduced yield**, affecting farmers and agricultural productivity at large.
+Currently, banks and financial institutions rely on traditional rule-based or manual evaluation methods, which leads to **delayed loan approvals, human bias, and inaccurate risk assessment**, affecting both lenders and borrowers.
 
 ---
 
 ## 2) Proposed Solution
 
-AgriGuard provides an **AI-powered web platform** where users can upload crop images and get instant disease predictions along with treatment suggestions.
+BaazCredit provides an **AI-powered credit risk scoring system** that evaluates a user’s financial profile and predicts their creditworthiness.
 
-- Uses deep learning (CNN-based models) for disease detection  
-- Provides real-time inference results  
-- Includes a marketplace for agricultural treatments and products  
-- Centralized system for farmers and agricultural support  
+- Uses machine learning models to predict loan default risk  
+- Generates a risk score based on user financial history  
+- Reduces human bias in decision-making  
+- Enables faster and more accurate loan approval process  
 
-This solution improves speed, accuracy, and accessibility compared to traditional methods.
+This solution improves transparency, speed, and accuracy in credit decision systems.
 
 ---
 
 ## 3) Features
 
-- 🌿 Crop disease detection using AI model  
-- ⚡ Real-time image-based prediction  
-- 🛒 Agricultural product marketplace  
-- 🔐 User authentication (Login/Signup)  
-- 👨‍💼 Admin dashboard (users, products, orders management)  
-- 📦 Order and cart system  
-- 📊 Structured backend APIs  
+- 📊 AI-based credit risk prediction  
+- ⚡ Real-time risk scoring system  
+- 📉 Risk classification (Low / Medium / High Risk)  
+- 🔐 User authentication system  
+- 🧠 Machine learning model integration  
+- 📈 Visual representation of risk results  
+- 🧾 Data-driven decision support system  
 
 ---
 
 ## 4) Tech Stack
 
-**Frontend:** React.js, Vite, Tailwind CSS, HTML, CSS  
-**Backend:** Node.js, Express / Flask / FastAPI  
-**Database:** MongoDB  
-**AI/ML:** PyTorch / TensorFlow (Transfer Learning CNN models)  
-**API:** REST APIs for authentication, prediction, and marketplace  
+**Frontend:** React.js, HTML, CSS, Tailwind CSS  
+**Backend:** Node.js / Flask / FastAPI  
+**Database:** MongoDB / MySQL  
+**AI/ML:** Scikit-learn, Pandas, NumPy, XGBoost / Logistic Regression  
+**Visualization:** Matplotlib / Seaborn  
 
 ---
 
 ## 5) System Architecture
 ![System Architecture of the Proposed System](/WorkFlow.png)
+
+---
+
 
 ---
 
@@ -65,3 +68,4 @@ npm run dev
 cd backend
 npm install
 node server.js
+---
